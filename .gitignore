@@ -1,0 +1,4 @@
+# Local app build
+Mac Color Match.app/
+.DS_Store
+*.xcuserstate

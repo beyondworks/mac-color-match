@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">Mac Color Match concept</title>
+  <desc id="desc">A laptop and an external monitor showing matching grayscale and color reference patches.</desc>
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#20252d"/><stop offset="1" stop-color="#11151b"/></linearGradient>
+    <linearGradient id="screen" x2="0" y2="1"><stop stop-color="#e7e8e9"/><stop offset="1" stop-color="#b9bec5"/></linearGradient>
+    <linearGradient id="metal" x2="0" y2="1"><stop stop-color="#cbd0d4"/><stop offset="1" stop-color="#737b85"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+  <rect width="1200" height="500" rx="28" fill="url(#bg)"/>
+  <ellipse cx="602" cy="425" rx="450" ry="30" fill="#080a0d" opacity=".7" filter="url(#shadow)"/>
+  <g transform="translate(145 120)">
+    <rect x="0" y="0" width="390" height="244" rx="16" fill="#090b0e" stroke="#818992" stroke-width="3"/>
+    <rect x="13" y="13" width="364" height="218" rx="7" fill="url(#screen)"/>
+    <rect x="31" y="34" width="168" height="20" rx="10" fill="#515966" opacity=".68"/>
+    <rect x="31" y="73" width="101" height="88" rx="5" fill="#f8f7f2"/>
+    <rect x="139" y="73" width="101" height="88" rx="5" fill="#c9c8c3"/>
+    <rect x="247" y="73" width="101" height="88" rx="5" fill="#92949a"/>
+    <rect x="31" y="172" width="317" height="16" rx="4" fill="#313740"/>
+    <rect x="31" y="172" width="45" height="16" rx="4" fill="#db414b"/>
+    <rect x="76" y="172" width="45" height="16" fill="#54ae73"/>
+    <rect x="121" y="172" width="45" height="16" fill="#527fd2"/>
+    <rect x="166" y="172" width="45" height="16" fill="#e4c98c"/>
+    <path d="M-27 248h444l-25 17H-2z" fill="url(#metal)"/>
+    <path d="M164 249h64l-8 7h-48z" fill="#727a83" opacity=".75"/>
+  </g>
+  <g transform="translate(622 80)">
+    <rect x="0" y="0" width="435" height="286" rx="18" fill="#090b0e" stroke="#858d96" stroke-width="3"/>
+    <rect x="14" y="14" width="407" height="258" rx="8" fill="url(#screen)"/>
+    <rect x="35" y="38" width="181" height="19" rx="9" fill="#515966" opacity=".68"/>
+    <rect x="35" y="78" width="109" height="102" rx="5" fill="#f8f7f2"/>
+    <rect x="157" y="78" width="109" height="102" rx="5" fill="#c9c8c3"/>
+    <rect x="279" y="78" width="109" height="102" rx="5" fill="#92949a"/>
+    <rect x="35" y="193" width="353" height="18" rx="4" fill="#313740"/>
+    <rect x="35" y="193" width="50" height="18" rx="4" fill="#db414b"/>
+    <rect x="85" y="193" width="50" height="18" fill="#54ae73"/>
+    <rect x="135" y="193" width="50" height="18" fill="#527fd2"/>
+    <rect x="185" y="193" width="50" height="18" fill="#e4c98c"/>
+    <path d="M206 286v40h24v-40" fill="url(#metal)"/>
+    <path d="M163 328h110l28 13H135z" fill="url(#metal)"/>
+  </g>
+  <path d="M535 229h55" stroke="#f0d89c" stroke-width="2" stroke-dasharray="5 8" opacity=".8"/>
+  <circle cx="562" cy="229" r="12" fill="none" stroke="#f0d89c" stroke-width="2" opacity=".8"/>
+  <circle cx="562" cy="229" r="3" fill="#f0d89c"/>
+  <text x="600" y="455" fill="#d9dde1" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="15" text-anchor="middle" letter-spacing="3" opacity=".75">A CONCEPT FOR DISPLAY COLOR MATCHING</text>
+</svg>
